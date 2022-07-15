@@ -1,0 +1,19 @@
+.container{
+    // background-color: rgba(32, 206, 32, 0.989);
+    overflow-x: hidden ;
+    overflow-y: auto;
+    position: relative;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    top: 385px;
+    height: 10000px;
+    width: 100%;
+    border-radius: 10px;
+}
+.tab{
+    width: 100vw;
+}

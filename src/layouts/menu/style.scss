@@ -1,0 +1,30 @@
+.menu{
+    width: 100vw;
+    border-top: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    z-index: 1001;
+    &-bottom{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    &-item{
+        width: 14px;
+        height: 14px;
+        align-items: center;
+        & img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: flex;
+        }
+    }
+}
