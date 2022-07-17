@@ -8,16 +8,18 @@
     }
     &-center{
         padding: 15px;
-        height: 250px;
+        position: relative;
+        margin-bottom: 75px;
     }
     &-item{
         width: 100%;
-        height: 100%;
+        height: 250px;
         border-radius: 8px;
         margin-bottom: 15px;
         position: relative;
         padding: 8px;
         text-align: left;
+        
         &-image{
             position: absolute;
             top: 0;

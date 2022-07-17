@@ -3,7 +3,7 @@ import './banner.scss'
 
 const Banner = () => {
   return (
-    <div>index</div>
+    <div></div>
   )
 }
 export default Banner
