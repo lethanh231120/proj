@@ -23,9 +23,9 @@ const Content = ({ postType, handleClickPost, posts, setPosts }) => {
       formData2.append('server_key', '83f0fa958d10392fd10bc8bb377a044c')
       formData2.append('password', 'Thanhlan12')
       formData2.append('username', 'username')
-      const { data } = await axios.post('api/auth', formData2)
+      const { data } = await axios.post('/api/auth', formData2)
       const data2 = await axios.post(
-        'api/posts', 
+        '/api/posts', 
         formData, 
         {
           

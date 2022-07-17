@@ -2,7 +2,7 @@
   "name": "clone-coccoc",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://ulatroi.net/",
+  "proxy":"https://ulatroi.net",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
